@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+   - '0.10'
+notifications:
+   email: false
+
+
+before_script:
+  - echo $HEAD_BRANCH
+  - echo $BASE_BRANCH 
